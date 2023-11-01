@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: #000000;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fabf31;
+}
+/* navbar */
+.navbar{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 3%;
+    height: 3rem;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    z-index: 909;
+    background-color: black;
+    user-select: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 2rem;
+}
+.logo span{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.links nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.links nav a{
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 600;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+.links nav a:hover{
+    color: rgb(255, 255, 255);
+}
+.links button{
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+}
+/* navbar */
+/* bg */
+.bg{
+    width: 100%;
+    height: 90vh;
+    padding-top: 3rem;
+    background: url(../pho/26179.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: saturate(1.2);
+}
+.h11{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.pp{
+    width: 60vw;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+/* bg */
+/* mater */
+.mater{
+    background-color: black;
+    color: white;
+}
+.headt{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:4rem 0 2rem;
+}
+.headt2{
+    text-align: center;
+    color:#ffbc1e;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cours{
+    padding:6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 5rem;
+}
+.dis{
+    width: 50vw;
+}
+.topic{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.subtopic{
+    font-size: 1rem;
+    color: rgb(213, 213, 213);
+    font-weight: 600;
+}
+.btn{
+    border: none;
+    outline: none;
+    user-select: none;
+    margin-top: 2rem;
+}
+.btn a{
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: #ffbc1e;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#thum1{
+    width: 40vw;
+    height: 20vw;
+    background: url(../pho/2150378594.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.4rem;
+}
+#thum2{
+    width: 40vw;
+    height: 20vw;
+    background: url(../pho/18775971_5937304.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 0.4rem;
+}
+#thum3{
+    width: 40vw;
+    height: 20vw;
+    background: url(../pho/24592.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.4rem;
+}
+/* mater */
+/* qu */
+.qu{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+#quimg{
+    width: 4vw;
+    border-radius: 50%;
+}
+#quup{
+font-weight: 600;
+text-transform: uppercase;
+font-size: 1.5rem;
+margin-top: 1rem;
+}
+.left{
+    width: 40vw;
+}
+.right{
+    width: 40vw;
+}
+#ripp{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.537);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+}
+/* qu */
+
+/* next */
+.next{
+ background-color: #0d0d14;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 65vh;
+}
+.headt3{
+    text-align: center;
+    color:#fff4da;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 50vw;
+    text-align: center;
+}
+.nextp{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.537);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1rem;
+    width: 60vw;
+    margin-top: 3rem;
+}
+/* next */
+

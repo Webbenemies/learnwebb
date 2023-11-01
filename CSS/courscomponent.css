@@ -1,0 +1,171 @@
+/* props */
+.bold{
+    font-weight: 600;
+}
+.m1{
+    margin: 1rem;
+}
+.m3top{
+    margin-top: 3rem;
+}
+.highlight{
+    color: #fabf31;
+}
+.openlink{
+    font-weight: 500;
+    color: rgb(220, 254, 255);
+    text-decoration: none;
+}
+#hight5{
+    min-height: 5rem;
+}
+#hight10{
+    min-height: 10rem;
+}
+/* props */
+/* coderaper */
+.coderaper{
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.238);;
+    margin: 1rem auto;
+    border-radius: 0.3rem;
+}
+.Example{
+    text-align: center;
+    padding: 1rem;
+    color: #edf2fb;
+}
+.codebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.codebox .coode{
+    width: 90%;
+    max-height:20rem;
+    min-height: 15rem;
+    resize: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    padding: 1.4rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family:monospace;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-top: 4px solid transparent;
+}
+.codebox .coode:is(:focus){
+    border-top: #fabf31 4px solid;
+}
+.codebox .coode::-webkit-scrollbar{
+    width: 0.3rem;
+}
+.codebox .coode::-webkit-scrollbar-track{
+    background: #000000;
+}
+.codebox .coode::-webkit-scrollbar-thumb{
+    background: #fabf31;
+}
+.codebox .codebtn{
+    align-self: start;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color:#feb816;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    user-select: none;
+    padding: 1rem 1.5rem;
+    margin: 1rem 3rem 0;
+}
+.codeframe{
+    width: 97%;
+    margin-bottom: 3rem;
+    display: none;
+    background: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* coderaper */
+/* text */
+.mainh1{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 4rem 2rem 1rem;
+    color:#fabf31;
+    font-size: 2rem;
+}
+.para{
+    width: 87%;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 2.1rem;
+    margin-bottom: 1rem;
+}
+.mainh2{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 4rem 2rem 1rem;
+    color:rgb(193, 231, 243);
+    font-size: 1.5rem;
+}
+code{
+    color: #fabf31;
+    font-family: monospace;
+    font-weight: 600;
+}
+/* text */
+/* contanet */
+.inpro{
+    background-color:#fabf31;
+    padding: 2rem 0;
+    color: #000000;
+}
+.inpro code{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.listbox{
+    width: 85%;
+    margin: 1rem auto 3rem;
+}
+.listbox u{
+    list-style:none;
+    text-decoration: none;
+    font-weight: 600;
+}
+.listbox u li{
+    margin: 0.5rem;
+    border-left: 3.5px solid #fabf31;
+    padding-left: 1rem;
+}
+.listbox ul{
+    list-style:decimal;
+    text-decoration: none;
+    font-weight: 600;
+}
+.listbox ul li{
+    margin: 0.5rem;
+    padding-left: 0.2rem;
+}
+
+.photobox{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 50%;
+    margin: 2rem 0  ;
+    border-radius: 0.3rem;
+}
+/* contanet */
+

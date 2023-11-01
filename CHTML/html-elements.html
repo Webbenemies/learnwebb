@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/coursnav.css">
+    <link rel="stylesheet" href="../CSS/courscomponent.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="../pho/webb logo.png">
+            <span>webb tool</span>
+        </div>
+        <div class="links">
+            <nav>
+                <a href="../index.html">home</a>
+                <a href="./homehtml.html">html</a>
+                <a href="#">css</a>
+                <a href="#">javascript</a>
+                <a href="#">react js</a>
+                <button>dark</button>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div id="sidenav"></div>
+        <div id="maincon">
+            <h1 class="mainh1">Blast off, and let's explore HTML elements</h1>
+            <h2 class="mainh2">WHAT CAN BE DESCRIBED AS HTML elements</h2>
+            <div class="photobox">
+                <img src="../pho/element.jpg" class="photo">
+            </div>
+            <p class="para m3top">HTML, which stands for Hypertext Markup Language, is the rocket fuel that powers the
+                world wide web. HTML elements are the individual components that make up this intergalactic code. Think
+                of HTML as the rocket's blueprint, and HTML elements as the nuts and bolts that hold it all together,
+                helping you navigate the vast cosmos of the internet.</p>
+            <p class="para">Imagine you're building a virtual world, like a digital playground, and you want to put
+                various things in it: text, pictures, buttons, links, and more. But how do you tell the computer what
+                goes where and how it should look? That's where HTML elements come into play.</p>
+            <p class="para">HTML elements are like building blocks. Each element is like a different type of toy in your
+                virtual playground. You have blocks for text, blocks for images, blocks for buttons, and blocks for all
+                kinds of cool stuff!</p>
+                <div class="photobox">
+                    <img src="../pho/element.jpg" class="photo">
+                </div>
+
+            <p class="para">Each HTML element typically consists of an opening tag, content, and a closing tag. The
+                opening tag tells the browser what type of element it is or configuration for the element. The closing
+                tag is used to mark the end of the element.</p>
+            <p class="para bold m3top">For example, if you want to create a text block, you use the
+                <code>&lt;p&gt;</code> </p>
+
+            <div class="coderaper">
+                <h3 class="Example">Example</h3>
+                <div class="codebox">
+                    <textarea name="code" class="coode" id="hight5" spellcheck="false">
+<p>write your name and see output</p>
+                    </textarea>
+                    <button class="codebtn">see output</button>
+                    <iframe class="codeframe"></iframe>
+                </div>
+            </div>
+            <p class="para m3top">The <code>&lt;p&gt;</code> opening tag says, "Hey, computer, I'm starting a text
+                block," and the <code>&lt;/p&gt;</code> closing tag says, "Okay, computer, I'm done with this text
+                block."
+            </p>
+            <p class="para m3top">HTML elements come in various shapes and sizes, each serving a unique purpose, like
+                the modules in your rocket ship. Some elements are for text, others for links, and some for multimedia.
+                By combining these elements, you can create entire websites, just as your rocket takes you on grand
+                space adventures.</p>
+            <div class="inpro">
+                <p class="para">HTML elements are essential for web development, as they define how content should be
+                    presented and interacted with in web browsers. Web developers use a combination of these elements to
+                    create and structure web pages, making them a crucial part of web development</p>
+            </div>
+
+            <h2 class="mainh2">Nested Elements</h2>
+            <p class="para">HTML elements can be stacked, allowing one element to contain other elements.</p>
+            <p class="para">Imagine you're constructing a spaceship, and within it, you have different compartments,
+                each serving a specific function. Similarly, in HTML, you can place elements inside other elements. This
+                creates a hierarchy, allowing you to structure your content in a logical and organized way.</p>
+            <p class="para bold m3top">Here's a straightforward example using an analogy:</p>
+            <div class="listbox">
+                <ul>
+                    <p class="para bold highlight">Outer Box (Parent Element): </p>
+                    <li>Think of this as your primary container, such as a box</li>
+                    <div class="coderaper">
+                        <h3 class="Example">Example</h3>
+                        <div class="codebox">
+                            <textarea name="code" class="coode" id="hight5" spellcheck="false" readonly>
+<box>
+<!-- Inside, you can have more elements -->
+</box>
+                    </textarea>
+                        </div>
+                    </div>
+                    <p class="para bold highlight">Nested Boxes (Child Elements):</p>
+                    <li>These are elements placed inside the outer box, like smaller boxes within a bigger one.</li>
+                    <div class="coderaper">
+                        <h3 class="Example">Example</h3>
+                        <div class="codebox">
+                            <textarea name="code" class="coode" id="hight10" spellcheck="false" readonly>
+<box>
+    <!-- Inside, you can have more elements -->
+<smallbox>
+        <!-- And so on... -->
+</smallbox>
+</box></textarea>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <p class="para">Inside each nested box (element), you can have text, images, links, or even more nested
+                boxes (elements).</p>
+
+            <p class="para bold m3top"> Now, let's consider a practical web example:</p>
+
+            <div class="listbox">
+                <ul>
+                    <p class="para bold highlight">Body (Parent Element):</p>
+                    <li>This is like the main container for your web page.</li>
+                    <div class="coderaper">
+                        <h3 class="Example">Example</h3>
+                        <div class="codebox">
+                            <textarea name="code" class="coode" id="hight5" spellcheck="false" readonly>
+<body>
+    <!-- Inside, you can have more elements -->
+</body>
+                    </textarea>
+                        </div>
+                    </div>
+                    <p class="para bold highlight">Nested Elements (Child Elements):</p>
+                    <li>These are elements placed inside the body to structure your content.</li>
+                    <div class="coderaper">
+                        <h3 class="Example">Example</h3>
+                        <div class="codebox">
+                            <textarea name="code" class="coode" id="hight10" spellcheck="false" readonly>
+<body>
+    <!-- Inside, you can have more elements -->
+    <header>
+        <!-- And so on... -->
+    </header>
+    <main>
+        <!-- And so on... -->
+    </main>
+</body></textarea>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <p class="para m3top">Nested elements allow you to organize and structure your content effectively. It's
+                like having compartments within compartments, creating a clear blueprint for your webpage.</p>
+        </div>
+    </main>
+</body>
+<script src="../JS/cHTML.js"></script>
+
+</html>

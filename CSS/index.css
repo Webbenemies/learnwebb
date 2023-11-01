@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: #000000;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fabf31;
+}
+/* navbar */
+.navbar{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 3%;
+    height: 3rem;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    z-index: 909;
+    background-color: black;
+    user-select: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 2rem;
+}
+.logo span{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.links nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.links nav a{
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 600;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+.links nav a:hover{
+    color: rgb(255, 255, 255);
+}
+.links button{
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+}
+/* navbar */
+/* lander */
+.lander{
+    display: flex;
+}
+.part1{
+    background-image: url(../pho/coder.jpg);
+    height: 100vh;
+    width: 45vw;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+.part2{
+    height: 100vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.part2in{
+    margin: 3rem 4rem;
+}
+.part2in h1{
+    font-size: 3.5rem;
+    
+}
+.part2in span{
+    color:#fabf31;
+}
+.part2in button{
+    border: none;
+    outline: none;
+    user-select: none;
+    margin-top: 2rem;
+}
+.part2 button a{
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: #ffbc1e;
+    padding: 1.5vw 2.5vw;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* lander */
+/* main */
+.learn{
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+    background-color: #ffbc1e27;
+    padding: 3rem 0;
+}
+.texts{
+    width: 40vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.infom{
+    text-align: center;
+}
+.laname{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.oneline{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.lanintro{
+    text-align: left;
+}
+.learnbtn{
+    border: none;
+    outline: none;
+}
+.learnbtn a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    font-size: 1.1vw;
+    padding: 1.5vw 2.5vw;
+    background-color: #ffbc20;
+    text-decoration: none;
+
+}
+#proimg1{
+    width: 40vw;
+    background-image: url(../pho/programming-background-collage.jpg);
+    height: 90%;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 0.5rem;
+
+}
+#proimg2{
+    width: 40vw;
+    background-image: url(../pho/2150714189.jpg);
+    height: 90%;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+#proimg3{
+    width: 40vw;
+    background-image: url(../pho/rockt.svg);
+    height: 90%;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+/* main */
